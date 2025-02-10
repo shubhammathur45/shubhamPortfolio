@@ -4,6 +4,7 @@ import Home from './components/Home.jsx'
 import './index.css';
 import SocialLinks from './components/SocialLinks.jsx';
 import About from './components/About.jsx'
+import Skills from './components/Skills.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
      <NavBar/>
      <Home />
      <About/>
+     <Skills/>
      <SocialLinks/>
     </>
   )
