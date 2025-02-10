@@ -3,9 +3,9 @@ import React from 'react'
     const experiences = [
         {
           id: 1,
-          company: "Tech Corp",
-          title: "Software Engineer",
-          date: "Jan 2021 - Present",
+          company: "Deloitte Canada",
+          title: "Software Specialist - Full stack developer",
+          date: "May 2021 - Present",
           description: [
             "Developed and maintained scalable web applications using React and Node.js.",
             "Collaborated with cross-functional teams to deliver high-quality software solutions.",
@@ -14,9 +14,9 @@ import React from 'react'
         },
         {
           id: 2,
-          company: "Innovate Solutions",
-          title: "Frontend Developer",
-          date: "Jun 2019 - Dec 2020",
+          company: "Communitech",
+          title: "UX/UI Designer - Intern",
+          date: "September 2020 - December 2020",
           description: [
             "Designed and implemented responsive user interfaces using HTML, CSS, and JavaScript.",
             "Optimized web applications for maximum speed and scalability.",
@@ -25,9 +25,9 @@ import React from 'react'
         },
         {
           id: 3,
-          company: "Startup Inc",
-          title: "Intern",
-          date: "May 2018 - May 2019",
+          company: "Cognizant Technology Solutions",
+          title: "Programmer Analyst - Web Developer",
+          date: "September 2017 - May 2019",
           description: [
             "Assisted in the development of new features for the company's flagship product.",
             "Performed code reviews and debugging to ensure code quality.",
