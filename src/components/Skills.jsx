@@ -7,6 +7,7 @@ import nextjs from "../assets/nextjs.png"
 import graphql from "../assets/graphql.png"
 import github from "../assets/github.png"
 import tailwind from "../assets/tailwind.png"
+import nodejs from "../assets/nodejs.png"
 
 const Skills = () => {
     const technologies = [
@@ -48,15 +49,22 @@ const Skills = () => {
         },
         {
             id: 7,
+            src: nodejs,
+            title: 'Node JS',
+            style: 'shadow-green-400'
+        },
+        {
+            id: 8,
             src: graphql,
             title: 'GraphQL',
             style: 'shadow-pink-400'
         }, {
-            id: 8,
+            id: 9,
             src: github,
             title: 'Github',
             style: 'shadow-gray-400'
-        }
+        },
+       
     ]
     return (
         <div name='skills' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
