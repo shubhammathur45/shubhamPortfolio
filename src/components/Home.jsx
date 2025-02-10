@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroImage from '../assets/shubhampicture.png';
 import { HiArrowRight } from "react-icons/hi";
+import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
@@ -22,12 +23,13 @@ const Home = () => {
                                 <HiArrowRight size={25} className='ml-1' />
                             </span>
                         </button>
-                        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+                        <Link className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                             About Me
                             <span className="group-hover:rotate-90 duration-300">
                                 <HiArrowRight size={25} className='ml-1' />
                             </span>
-                        </button>
+
+                        </Link>
                     </div>
                 </div>
 
