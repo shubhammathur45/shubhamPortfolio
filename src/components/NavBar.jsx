@@ -35,7 +35,7 @@ function NavBar() {
     return (
         <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed px-4">
             <div>
-                <h1 className="text-5xl font-signature ml-2">SM</h1>
+                <Link to='home' smooth duration={500}><h1 className="text-5xl font-signature ml-2 lg:hover:scale-150 duration-300 cursor-pointer">SM</h1></Link>
             </div>
             <ul className="hidden md:flex">
                 {links.map(({ id, link }) => (
@@ -54,7 +54,7 @@ function NavBar() {
                 {links.map(({ id, link }) => (
                     <li key={id}
                         className="px-4 cursor-pointer capitalize py-6 text-4xl">
-                        <Link to={link} smooth duration={500}>{link}</Link>
+                        <Link to={link} smooth duration={500} onClick={() => setNav(!nav)}>{link}</Link>
                     </li>
                 ))}
             </ul>)}

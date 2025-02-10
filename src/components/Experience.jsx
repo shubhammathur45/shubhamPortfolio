@@ -4,7 +4,7 @@ import React from 'react'
         {
           id: 1,
           company: "Deloitte Canada",
-          title: "Software Specialist - Full stack developer",
+          title: "Solution Specialist - Full stack developer",
           date: "May 2021 - Present",
           description: [
             "Developed and maintained scalable web applications using React and Node.js.",
