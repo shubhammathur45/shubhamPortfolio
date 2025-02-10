@@ -17,12 +17,12 @@ const Home = () => {
                         I am a passionate full stack developer with expertise in MERN stack.
                     </p>
                     <div className="flex gap-4"> {/* Added gap between buttons */}
-                        <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+                        <Link to='experience' smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                             Experience
                             <span className="group-hover:rotate-90 duration-300">
                                 <HiArrowRight size={25} className='ml-1' />
                             </span>
-                        </button>
+                        </Link>
                         <Link to='about' smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                             About Me
                             <span className="group-hover:rotate-90 duration-300">
@@ -34,7 +34,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                    <img src={HeroImage} alt="my profile" className="hidden md:block rounded-2xl mx-auto md:w-2/3"></img>
+                    <img src={HeroImage} alt="my profile" className="rounded-2xl mx-auto md:w-2/3"></img>
                 </div>
             </div>
         </div>
