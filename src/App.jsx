@@ -5,6 +5,7 @@ import './index.css';
 import SocialLinks from './components/SocialLinks.jsx';
 import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
+import Contact from './components/Contact.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
      <Home />
      <About/>
      <Skills/>
+     <Contact/>
      <SocialLinks/>
     </>
   )
