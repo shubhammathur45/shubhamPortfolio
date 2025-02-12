@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroImage from '../assets/shubhampicture.png';
 import { HiArrowRight } from "react-icons/hi";
 import { Link } from 'react-scroll';
