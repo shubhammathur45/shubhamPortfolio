@@ -83,9 +83,9 @@ const Experience = () => {
       name="experience"
       className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        <h2 className="text-4xl font-bold text-center mb-12">Experience</h2>
-        <div className="space-y-8">
+      <div className="maxw-screen-lg p-4 mx-auto flex flex-col justify-center w-full md:w-2/3 h-full">
+      <div className="pb-8">
+        <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">Experience</h2>
           {experiences.map((experience) => (
             <ExperienceCard key={experience.id} experience={experience} />
           ))}
