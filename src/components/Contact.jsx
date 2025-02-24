@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Contact = () => {
   return (
@@ -17,7 +16,7 @@ const Contact = () => {
             <input type='text' name='email' placeholder='Enter your email' className='p-2 bg-transparent border-2 my-4 rounded-md text-white focus:outline-none'></input>
             <textarea name='message' rows='10' placeholder='Enter your message' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'></textarea>
             <button
-            className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 '>
+            className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]'>
                 Like what you see? Lets connect!
             </button>
             </form>

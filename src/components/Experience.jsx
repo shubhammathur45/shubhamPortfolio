@@ -13,7 +13,7 @@ const ExperienceCard = ({ experience }) => {
   };
 
   return (
-    <div className="relative pl-8 sm:pl-32 py-6 group">
+    <div className="relative pl-8 sm:pl-32 py-6 group shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
       <div className="absolute left-2 sm:left-24 h-full w-0.5 bg-white/20 group-first:top-4 group-last:h-10"></div>
       <div className="absolute left-0 sm:left-20 w-4 h-4 rounded-full bg-blue-500 border-2 border-white transform -translate-x-1/2 top-6"></div>
       <div className="bg-gray-900/50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">

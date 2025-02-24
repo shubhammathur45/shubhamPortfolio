@@ -38,7 +38,7 @@ const About = () => {
         <a
           href="/ShubhamMathur_Resume.docx"
           download={true} // The name of the file to be downloaded
-          className="group hover:scale-90 duration-300 text-white w-fit px-6 py-3 my-4 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+          className="group hover:scale-90 duration-300 text-white w-fit px-6 py-3 my-4 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]"
         >
           Download Resume
           <span className="group-hover:scale-150 duration-300">
